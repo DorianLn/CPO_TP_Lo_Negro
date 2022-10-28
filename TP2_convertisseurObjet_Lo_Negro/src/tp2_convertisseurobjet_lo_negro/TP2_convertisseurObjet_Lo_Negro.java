@@ -4,6 +4,8 @@
  */
 package tp2_convertisseurobjet_lo_negro;
 
+import java.util.Scanner;
+
 /**
  *
  * @author doria
@@ -23,6 +25,52 @@ public class TP2_convertisseurObjet_Lo_Negro {
         System.out.println(C3.KelvinVersFarenheit(45.3)); 
         System.out.println(C1.CelciusVersKelvin(4.3));
         System.out.println(C1.toString());
-    }
         
+        System.out.println("Tapez une conversion (1 = Celcius vers Kelvin, 2 Kelvin vers Celcius, 3= Celcius vers Farenheit, 4 = Farenheit vers Celcius, 5 = Kelvin vers Farenheit, 6 = Farenheit vers Kelvin ): ");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if (a == 1){
+            System.out.println("Entrez votre température en celcius:");
+            int b = sc.nextInt();
+            System.out.println(C1.CelciusVersKelvin(b)); 
+            
+        }
+        if (a == 2){
+            System.out.println("Entrez votre température en Kelvin:");
+            int b = sc.nextInt();
+            System.out.println(C1.KelvinVersCelcius(b)); 
+            System.out.println(b);
+                
+        }
+        if (a == 3){
+            System.out.println("Entrez votre température en Farenheit:");
+            int b = sc.nextInt();
+            System.out.println(C1.FarenheitVersCelcius(b)); 
+          
+                
+                
+        }
+        if (a == 4){
+            System.out.println("Entrez votre température en Celcius:");
+            int b = sc.nextInt();
+            System.out.println(C1.CelciusVersFarenheit(b)); 
+           
+                    
+        }
+        if (a == 5){
+            System.out.println("Entrez votre température en Kelvin:");
+            int b = sc.nextInt();
+            System.out.println(C1.KelvinVersFarenheit(b)); 
+            
+            
+                
+        }
+        if (a == 6){
+            System.out.println("Entrez votre température en Farenheit:");
+            int b = sc.nextInt();
+            System.out.println(C1.FarenheitVersKelvin(b)); 
+                        
+        }   
+    }
 }
+
