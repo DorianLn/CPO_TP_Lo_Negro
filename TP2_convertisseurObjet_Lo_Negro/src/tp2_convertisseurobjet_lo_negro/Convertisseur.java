@@ -17,49 +17,57 @@ public class Convertisseur {
     double FversC;
     int nbConversions; 
     
+    
     public Convertisseur(){
         nbConversions = 0 ;
+        
     }
     
     public double CelciusVersKelvin(double CK){//on calcul un Celcius en Kelvin et on retourne le resulat
-        CversK=CK+273.15;
-        
+        CversK=CK + 273.15;
+        nbConversions += 1;
         return CversK;
     }
     
     public double KelvinVersCelcius(double KC){
         KversC=KC-273.15;
+        nbConversions += 1;
         return KversC;
     }
     
     public double FarenheitVersCelcius(double FC){
-        FversC=FC/33.8;
+        FversC=(FC-32)/(1.8);
+        nbConversions += 1;
         return FversC;        
         
     }
     
     public double CelciusVersFarenheit(double CF){
-        CversF=CF*33.8;
+        CversF=(CF*1.8)+32;
+        nbConversions += 1;
         return CversF;
         
     }
     
     public double KelvinVersFarenheit(double KF){
-        KversF=(KF-273.15)*33.8;
+        KversF=((KF-273.15)*1.8) + 32;
+        nbConversions += 1;
         return KversF;
         
     }
     
     public double FarenheitVersKelvin(double FK){
-        FversK=(FK/33.8)+273.15;
+        FversK=((FK-32)/1.8)+273.15;
+        nbConversions += 1;
         return FversK;
         
     }
     
     @Override
-public String toString () {
- return "nb de conversions"+ nbConversions;
-}
+    public String toString () {
+    return "nb de conversions" +  nbConversions;
+    }
+    
 
     
 }
