@@ -25,6 +25,11 @@ public class TP2_manip_Lo_Negro {
         assiette2.nbCalories) ;
         System.out.println("nb de calories de Assiette 3 : " +
         assiette3.nbCalories) ;//assiette 2 et 3 ont bien le même nombre de calorie
+        int changement;
+        changement = assiette1.nbCalories;
+        assiette1.nbCalories=assiette2.nbCalories;
+        assiette2.nbCalories=changement;// changement des valeurs assiette1 = assiette 2 et inversément 
+        
     }
     
 }
