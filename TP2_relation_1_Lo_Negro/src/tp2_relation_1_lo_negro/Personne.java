@@ -17,6 +17,7 @@ public class Personne {
     public Personne(String n, String p){
         nom=n;
         prenom=p;
+        liste_voitures = new Voiture [3] ;
     }
     @Override
     public String toString () {

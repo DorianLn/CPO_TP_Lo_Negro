@@ -13,12 +13,13 @@ public class Voiture {
     String Marque;
     int PuissanceCV;
     Personne proprietaire;
+    int nbvoiture = 0 ; 
     
-    public Voiture(String Mod, String Marq, int Pui, Personne NULL){
+    public Voiture(String Mod, String Marq, int Pui){
     Modele = Mod;
     Marque=Marq;
     PuissanceCV = Pui;
-    proprietaire = NULL;
+    proprietaire = null;
         
     }
     @Override
