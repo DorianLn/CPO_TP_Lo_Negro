@@ -11,6 +11,8 @@ package tp2_relation_1_lo_negro;
 public class Personne {
     String nom;
     String prenom;
+    int nbVoitures ;
+    Voiture [] liste_voitures ;
     
     public Personne(String n, String p){
         nom=n;
