@@ -16,5 +16,9 @@ public class Personne {
         nom=n;
         prenom=p;
     }
+    @Override
+    public String toString () {
+    return "Nom :" + nom + "\n prenom : " + prenom;
+    }
     
 }
