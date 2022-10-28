@@ -9,5 +9,9 @@ package tp2_manip_lo_negro;
  * @author doria
  */
 public class Moussaka {
-    
+    int nbCalories;
+    public Moussaka(int calM){
+        nbCalories= calM;
+        
+    }
 }

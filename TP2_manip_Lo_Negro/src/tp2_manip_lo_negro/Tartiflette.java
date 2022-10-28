@@ -9,5 +9,10 @@ package tp2_manip_lo_negro;
  * @author doria
  */
 public class Tartiflette {
+    int nbCalories;
+    public Tartiflette(int calT){
+        nbCalories=calT;
+    
+    }
     
 }
