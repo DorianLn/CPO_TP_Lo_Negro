@@ -10,7 +10,7 @@ package tp2_convertisseurobjet_lo_negro;
  */
 public class Convertisseur {
     double CversK;//on met un nombre à décimal
-    double KversC;
+    double KversC;//Creation de plusieur variable qui seront utilisées plus tard
     double FversK;
     double KversF;
     double CversF;
@@ -18,7 +18,7 @@ public class Convertisseur {
     int nbConversions; 
     
     
-    public Convertisseur(){
+    public Convertisseur(){// on créé notre constructeur 
         nbConversions = 0 ;
         
     }
@@ -63,7 +63,7 @@ public class Convertisseur {
         
     }
     
-    @Override
+    @Override// mise en place du string toString 
     public String toString () {
     return "nb de conversions" +  nbConversions;
     }
