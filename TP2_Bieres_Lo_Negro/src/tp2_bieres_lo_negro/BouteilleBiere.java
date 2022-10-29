@@ -10,17 +10,17 @@ package tp2_bieres_lo_negro;
  * @author doria
  */
 public class BouteilleBiere {
-    String nom;
+    String nom;//création de variable de différent type dans la class BouteilleBiere
     double degreAlcool;
     String brasserie;
     boolean ouverte;
     
-    public void lireEtiquette() {
+    public void lireEtiquette() {//ajout d'une méthode qui permet de affiche simplement à l’écran les informations contenues sur l’étiquette de la bouteille de bière
         System.out.println("Bouteille de " + nom +" (" + degreAlcool +
         " degres) \nBrasserie : " + brasserie ) ;
     }
     
-    public BouteilleBiere(String unNom, double unDegre, String
+    public BouteilleBiere(String unNom, double unDegre, String  // Création du constructeur avec en entrée les différentes caractéristiques de la bière
     uneBrasserie) {
         nom = unNom;
         degreAlcool = unDegre;
@@ -28,7 +28,7 @@ public class BouteilleBiere {
         ouverte = false;
     }
     
-    public boolean  Décapsuler() {
+    public boolean  Décapsuler() {// création d'une fonction boleen qui va simplement decapsuler une bouteille si ce n'est pas déjà fait 
         if(ouverte==false){
             ouverte= true; 
             return true;
