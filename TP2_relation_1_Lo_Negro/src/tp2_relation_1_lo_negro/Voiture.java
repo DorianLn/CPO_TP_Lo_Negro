@@ -9,20 +9,20 @@ package tp2_relation_1_lo_negro;
  * @author doria
  */
 public class Voiture {
-    String Modele;
+    String Modele;//Création de plusieurs variable dans la class voiture 
     String Marque;
     int PuissanceCV;
-    Personne proprietaire;
+    Personne proprietaire;// création d'une varaible de type Personne
     int nbvoiture = 0 ; 
     
-    public Voiture(String Mod, String Marq, int Pui){
+    public Voiture(String Mod, String Marq, int Pui){//Création de notre constructeur qui va prendre en entrée les différentes caractéristique de la voiture 
     Modele = Mod;
     Marque=Marq;
     PuissanceCV = Pui;
-    proprietaire = null;
+    proprietaire = null;// si la voiture n'a pas de propriétaire alors propiétaire = null
         
     }
-    @Override
+    @Override// création du string tostring
     public String toString () {
     return "modèle :" + Modele + "\n Marque : " + Marque + "\n PuissanceCV" + PuissanceCV+ "\n Propriétaire : " + proprietaire;
     }
