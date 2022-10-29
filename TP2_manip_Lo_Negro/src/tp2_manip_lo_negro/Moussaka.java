@@ -10,7 +10,7 @@ package tp2_manip_lo_negro;
  */
 public class Moussaka {
     int nbCalories;
-    public Moussaka(int calM){
+    public Moussaka(int calM){//creation de notre constructeur qui prend en entrée un entier pour le nombre de calorie du moussaka
         nbCalories= calM;
         
     }

@@ -10,7 +10,7 @@ package tp2_manip_lo_negro;
  */
 public class Tartiflette {
     int nbCalories;
-    public Tartiflette(int calT){
+    public Tartiflette(int calT){//Création de notre constructeur Tartiflette qui prend en entrée un chiffre entier pour les calories
         nbCalories=calT;
     
     }
