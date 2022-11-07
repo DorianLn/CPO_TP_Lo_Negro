@@ -13,10 +13,9 @@ public class Premier_interface_graphique_LO_NEGRO {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+  
+       
         
-        
-    }
+    
     
 }
