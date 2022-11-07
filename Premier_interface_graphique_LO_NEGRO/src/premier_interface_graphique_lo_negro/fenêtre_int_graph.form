@@ -51,42 +51,44 @@
               <EmptySpace max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="88" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="affichage" alignment="1" min="-2" pref="89" max="-2" attributes="0"/>
-                              <Component id="nom" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="nv_salaire" min="-2" pref="108" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="salaire_up" min="-2" pref="273" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="rentrer_nom" pref="277" max="32767" attributes="0"/>
-                              <Component id="affichage_nom" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="216" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="salaire_up" min="-2" pref="119" max="-2" attributes="0"/>
-                              <Group type="102" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
                                   <Component id="salaire" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="salaire_entrer" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="affichage" alignment="1" min="-2" pref="89" max="-2" attributes="0"/>
+                                      <Component id="nom" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="salaire_entrer" min="-2" pref="195" max="-2" attributes="0"/>
+                                  <Component id="rentrer_nom" min="-2" pref="277" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                          <Component id="bouton_salaire" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
                       </Group>
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bouton_salaire" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="msgaurevoir" min="-2" pref="67" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="280" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="228" max="-2" attributes="0"/>
+                      <Component id="msgaurevoir" min="-2" pref="116" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="affichage_nom" min="-2" pref="277" max="-2" attributes="0"/>
+                      <EmptySpace pref="30" max="32767" attributes="0"/>
                       <Component id="bouttonvalider" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                   </Group>
               </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -96,29 +98,42 @@
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
               <Component id="msgbienvenue" min="-2" pref="80" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="nom" min="-2" max="-2" attributes="0"/>
+                          <Component id="rentrer_nom" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="affichage" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="salaire" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="salaire_entrer" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bouton_salaire" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="salaire_up" min="-2" pref="23" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="nv_salaire" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="nom" min="-2" max="-2" attributes="0"/>
-                  <Component id="rentrer_nom" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="msgaurevoir" min="-2" pref="23" max="-2" attributes="0"/>
+                      <EmptySpace min="19" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="bouttonvalider" pref="33" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="affichage_nom" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="affichage" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="affichage_nom" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="salaire" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="salaire_entrer" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="bouton_salaire" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="salaire_up" min="-2" pref="23" max="-2" attributes="0"/>
-              <EmptySpace pref="27" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="bouttonvalider" max="32767" attributes="0"/>
-                  <Component id="msgaurevoir" max="32767" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -126,7 +141,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="msgbienvenue">
       <Properties>
-        <Property name="text" type="java.lang.String" value="hola"/>
+        <Property name="text" type="java.lang.String" value="Bonjour"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="msgaurevoir">
@@ -171,6 +186,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="bouton_salaire">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="augmenter votre salaire"/>
       </Properties>
       <Events>
@@ -178,6 +196,11 @@
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="salaire_up">
+    </Component>
+    <Component class="javax.swing.JLabel" name="nv_salaire">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nouveau salaire"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
