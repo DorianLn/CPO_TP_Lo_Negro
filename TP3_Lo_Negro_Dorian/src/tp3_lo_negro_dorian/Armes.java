@@ -17,6 +17,8 @@ public class Armes {
         nvattack = nvA;
     }
     
-    
-    
+     @Override// création du string tostring
+    public String toString () {
+    return "Type d'arme : " + nom + "\nNiveau d'attaque : " + nvattack ;
+    }
 }
