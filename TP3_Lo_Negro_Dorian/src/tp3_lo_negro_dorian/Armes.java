@@ -13,8 +13,19 @@ public class Armes {
     int nvattack;
    
     public Armes (String NomA ,int nvA){// constructeur 
-        nom= NomA;
-        nvattack = nvA;
+        if (nvA<=100 || nvA>0){
+           nom= NomA;
+           nvattack = nvA; 
+        }
+        if (nvA>100){
+            nvA=100;
+            
+        }
+        if(nvA<0){
+            nvA=0;
+            nom= NomA;
+            nvattack = nvA;
+        }
     }
     
      @Override// création du string tostring
