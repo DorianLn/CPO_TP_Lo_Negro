@@ -9,5 +9,14 @@ package tp3_lo_negro_dorian;
  * @author doria
  */
 public class Armes {
+    String nom; 
+    int nvattack;
+   
+    public Armes (String NomA ,int nvA){// constructeur 
+        nom= NomA;
+        nvattack = nvA;
+    }
+    
+    
     
 }
