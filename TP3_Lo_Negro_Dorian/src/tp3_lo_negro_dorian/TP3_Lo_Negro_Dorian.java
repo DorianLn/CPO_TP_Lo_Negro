@@ -15,6 +15,8 @@ public class TP3_Lo_Negro_Dorian {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Armes A = new Armes ("baton" , 100);
+        System.out.println(A);
     }
     
 }
