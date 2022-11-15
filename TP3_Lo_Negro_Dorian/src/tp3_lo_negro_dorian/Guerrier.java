@@ -8,6 +8,24 @@ package tp3_lo_negro_dorian;
  *
  * @author doria
  */
-public class Guerrier {
+public class Guerrier extends Personnages {
+    private boolean cheval;
+    
+    public Guerrier(String nom,int Vie , boolean cheval){
+        super(nom, Vie);
+        
+        this.cheval = cheval;
+            
+        
+        
+    }
+    public void setcheval(boolean cheval ){//change la valeur
+        this.cheval = cheval;
+    }
+    
+    @Override// création du string tostring
+    public String toString () {
+        return "Guerrier{" + "Cheval= " + cheval +'}';
+    }
     
 }

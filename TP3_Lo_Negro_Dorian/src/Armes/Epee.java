@@ -28,11 +28,11 @@ public class Epee extends Armes {
     
         }
     }
-    public int getFinesse(){
+    public int getfinesse(){
         return finesse; 
     }
     
-    public void setFinesse(int finesse ){
+    public void setfinesse(int finesse ){
         if (finesse>0){
             this.finesse = finesse;
         }

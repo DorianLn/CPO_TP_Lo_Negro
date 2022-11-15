@@ -25,11 +25,11 @@ public class Baton extends Armes {
                 nomB=n;
         }    
     }
-    public int getAges(){
+    public int getages(){//pour avoir la valeur 
         return ages; 
     }
     
-    public void setAges(int ages ){
+    public void setages(int ages ){//change la valeur
         if (ages>0){
             this.ages = ages;
         }
