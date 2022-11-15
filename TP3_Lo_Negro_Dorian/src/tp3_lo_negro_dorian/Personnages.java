@@ -20,7 +20,7 @@ public class Personnages {
     
     @Override// création du string tostring
     public String toString () {
-    return "niveaude vie : " + niveau_de_vie + "nom personnage" + nom;
+    return "niveaude vie : " + niveau_de_vie + "nom personnage : " + nom;
     
     }
 }
