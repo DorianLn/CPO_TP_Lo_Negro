@@ -36,7 +36,7 @@ public class TP3_Lo_Negro_Dorian {
         Baton baton2 = new Baton( "Charme", 5, 6);
         System.out.println(baton2);
         
-        ArrayList<Armes> tab_armes = new ArrayList<Armes>();
+        ArrayList<Armes> tab_armes = new ArrayList<Armes>();//création d'un tableau dynamique pour stocker les armes 
         
         tab_armes.add(epee1);
         tab_armes.add(epee2);
@@ -44,23 +44,24 @@ public class TP3_Lo_Negro_Dorian {
         tab_armes.add(baton2);
         System.out.println(tab_armes);
         
-        Magicien magicien1 = new Magicien("Gandalf",65,true);
+        Magicien magicien1 = new Magicien("Gandalf",65,true);//on créer des magiciens et guerriers 
         System.out.println(magicien1);
         Magicien magicien2 = new Magicien("Garcimore", 44, false);
         Guerrier guerrier1 = new Guerrier("Conan", 78, false);
         Guerrier guerrier2 = new Guerrier("Lannister", 45, true);
         
-        ArrayList<Personnages> tab_perso = new ArrayList<Personnages>();
+        ArrayList<Personnages> tab_perso = new ArrayList<Personnages>();// on créer un tableaud ynamique pour stocker les personnages 
         
         tab_perso.add(magicien1);
         tab_perso.add(magicien2);
         tab_perso.add(guerrier1);
         tab_perso.add(guerrier2);
         
-        System.out.println(tab_perso);
+        System.out.println(tab_perso);//on test le code pour ajouter une arme à un personnage
         magicien2.setArmeperso(baton1);
         System.out.println(magicien2.nb_arme);
                 
+        
     }
     
 }

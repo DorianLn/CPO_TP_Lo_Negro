@@ -16,6 +16,8 @@ public class Personnages {
     String nom; 
     int niveau_de_vie;
     int caseT;
+    Armes armeportee = null; 
+    
     
     
     public Personnages (String Nom, int nv ){//constructeur
@@ -29,6 +31,7 @@ public class Personnages {
     public void setArmeperso(Armes arme ){//change la valeur
         caseT= nb_arme.size();
         if (caseT<=5){
+            armeportee= arme;
             nb_arme.add(arme);
         }
         
@@ -36,7 +39,9 @@ public class Personnages {
         
     }
     
-    
+    public Armes getArme_en_main(){
+        return armeportee; 
+    }
     
     
     @Override// création du string tostring
