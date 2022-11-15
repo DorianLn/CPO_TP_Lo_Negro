@@ -58,7 +58,8 @@ public class TP3_Lo_Negro_Dorian {
         tab_perso.add(guerrier2);
         
         System.out.println(tab_perso);
-        
+        magicien2.setArmeperso(baton1);
+        System.out.println(magicien2.nb_arme);
                 
     }
     
