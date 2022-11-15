@@ -1,8 +1,12 @@
+package Armes;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tp3_lo_negro_dorian;
+
+
+import Armes.Armes;
 
 /**
  *
@@ -10,14 +14,17 @@ package tp3_lo_negro_dorian;
  */
 public class Epee extends Armes {
     private int finesse; 
+    String nom;
     
     public Epee(String N,int finesse , int Att ){
         super(N,Att);
         if(finesse >0 & finesse<100){
             this.finesse= finesse;
+            nom = N;
         }
         else{
             this.finesse=1;
+            nom=N;
     
         }
     }
@@ -32,6 +39,6 @@ public class Epee extends Armes {
     }
     @Override// création du string tostring
     public String toString () {
-        return "Epee{" + "finesse=" + finesse + '}';
+        return "Epee{" + "finesse=" + finesse + " nom arme : "+ nom +'}';
     }
 }

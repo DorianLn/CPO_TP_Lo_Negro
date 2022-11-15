@@ -4,6 +4,9 @@
  */
 package tp3_lo_negro_dorian;
 
+import Armes.Epee;
+import Armes.Baton;
+import Armes.Armes;
 import java.util.ArrayList;
 
 /**
@@ -17,6 +20,7 @@ public class TP3_Lo_Negro_Dorian {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         Armes A = new Armes ("baton" , 100);
         
         Epee epee1 = new Epee( "Excalibur",7, 5);//on test notre code en créant des epées et des bâtons 
