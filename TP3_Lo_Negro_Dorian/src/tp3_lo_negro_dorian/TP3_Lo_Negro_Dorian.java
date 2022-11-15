@@ -4,6 +4,8 @@
  */
 package tp3_lo_negro_dorian;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author doria
@@ -26,6 +28,13 @@ public class TP3_Lo_Negro_Dorian {
         System.out.println(baton1);
         Baton baton2 = new Baton( "Charme", 5, 6);
         System.out.println(baton2);
+        
+        ArrayList<Armes> tab_armes = new ArrayList<Armes>();
+        tab_armes.add(epee1);
+        tab_armes.add(epee2);
+        tab_armes.add(baton1);
+        tab_armes.add(baton2);
+        System.out.println(tab_armes);
     }
     
 }
