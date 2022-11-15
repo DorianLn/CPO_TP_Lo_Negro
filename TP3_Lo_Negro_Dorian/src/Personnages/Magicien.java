@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tp3_lo_negro_dorian;
+package Personnages;
 
 /**
  *
@@ -10,11 +10,14 @@ package tp3_lo_negro_dorian;
  */
 public class Magicien extends Personnages{
     private boolean Confirme; 
+    String Nom; 
+    int life;
     
     public Magicien(String nom, int Vie,boolean confirme ){
         super(nom, Vie);
-        
+        Nom=nom;
         this.Confirme = confirme;
+        life= Vie;
         
             
         
@@ -27,6 +30,6 @@ public class Magicien extends Personnages{
     
     @Override// création du string tostring
     public String toString () {
-        return "Magicien{" + "Confirme= " + Confirme +'}';
+        return "Magicien{" + "nom du perso : "+ Nom + " nombre de vie : " + life + "Confirme= " + Confirme +'}';
     }
 }

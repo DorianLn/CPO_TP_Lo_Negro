@@ -4,6 +4,9 @@
  */
 package tp3_lo_negro_dorian;
 
+import Personnages.Personnages;
+import Personnages.Magicien;
+import Personnages.Guerrier;
 import Armes.Epee;
 import Armes.Baton;
 import Armes.Armes;
